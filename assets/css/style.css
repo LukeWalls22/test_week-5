@@ -14,17 +14,47 @@ a {
 header {
     background-color: #ffc017;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    padding: 1.5rem 0;
+    font-size: 0.8rem;
 }
 
 #headNav ul {
     display: flex;
+    align-items: baseline;
+}
+
+#headNav ul li {
+    list-style-type: none;
+    font-weight: 300;
+    margin: 0 1rem;
+}
+
+#headNav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#GSbutton {
+    background-color: black;
+    color: white;
+    padding: 0.8rem 0.3rem;
+    border-radius: 30px;
 }
 
 /* Main */
 
 #ylwBanner {
     background-color: #ffc017;
+    border-bottom: 1px solid black;
+    padding: 3.5rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+#textArea {
+    width: 60%;
 }
 
 #ylwBanner h2 {
@@ -38,8 +68,18 @@ header {
 
 #ylwBanner p {
     font-weight: 400;
-    font-size: 1rem;
-    line-height: 1rem;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#ylwBanner button {
+    background-color: black;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.3rem;
+    padding: 0.5rem 2.5rem;
+    border-radius: 30px;
 }
 
 /* Article */
